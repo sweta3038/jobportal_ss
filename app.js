@@ -39,9 +39,9 @@ app.use('/api',jobRoutes);
 app.use(errorHandler);
 
 //routes
-// app.get('/',(req,res)=>{
-//         res.send("Hello from node js");
-//})
+ app.get('/',(req,res)=>{
+         res.send("Hello from node js");
+})
 
 //port
 const port = process.env.PORT || 8000
